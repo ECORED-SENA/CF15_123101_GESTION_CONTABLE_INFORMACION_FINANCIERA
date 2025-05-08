@@ -2,7 +2,7 @@ export default {
   global: {
     Name: 'Estados financieros de propósito general',
     Description:
-      'Se desarrollarán las bases para la presentación de los estados financieros de propósito general, bajo las NIIF. Los estados financieros son el resultado de las transacciones realizadas por la empresa en un periodo determinado, los cuales se encuentran integrados por: estado de situación financiera, estado de resultados, estado de cambio en el patrimonio, estado de flujos de efectivo y notas a los estados financieros.',
+      'Se desarrollarán las bases para la presentación de los estados financieros de propósito general, bajo las NIIF. Los estados financieros son el resultado de las transacciones realizadas por la empresa en un periodo determinado, los cuales se encuentran integrados por: estado de situación financiera, estado de resultados, estado de cambio en el patrimonio, estado de flujos de efectivo y notas a los estados financieros. ',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -81,6 +81,7 @@ export default {
           },
         ],
       },
+
       {
         nombreRuta: 'tema2',
         numero: '2',
@@ -165,7 +166,7 @@ export default {
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: 'Estado de flujos de efectivo',
+        titulo: 'Estado de flujos de efectivo ',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -249,22 +250,155 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: 'Sitio web',
-      link: '',
+      tema: 'Estados financieros de propósito general.',
+      referencia:
+        'Servicio Nacional de Aprendizaje, SENA. (2018). Revista Finnova: Investigación e Innovación Financiera y Organizacional. ',
+      tipo: 'Capítulo 1 de libro',
+      link: 'http://revistas.sena.edu.co/index.php/finn',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Activo corriente',
+      significado:
+        'una entidad clasificará un activo como corriente cuando espera realizar el activo o tiene la intención de venderlo o consumirlo en su ciclo normal de operación; mantiene el activo principalmente con fines de negociación. ',
+    },
+    {
+      termino: 'Estados financieros',
+      significado:
+        'un juego completo de estados financieros comprende un estado de situación financiera al final del periodo; un estado del resultado integral del periodo; un estado de cambios en el patrimonio del periodo; un estado de flujos de efectivo del periodo.',
+    },
+    {
+      termino: 'Estados financieros con propósito general',
+      significado:
+        'son aquellos que pretenden cubrir las necesidades de usuarios que no están en condiciones de exigir informes a la medida de sus necesidades específicas de información.',
+    },
+    {
+      termino: 'Financial Accounting Standards Board - FASB',
+      significado:
+        'en español traduce Misión del Concejo para los Estándares de Contaduría Financiera y es la entidad encargada de fijar los principios de contabilidad generalmente aceptados en los Estados Unidos. ',
+    },
+    {
+      termino: 'Generally Accepted Accounting Principles – GAAP',
+      significado:
+        'su traducción corresponde a Principios de Contabilidad Generalmente Aceptados y son de uso general en el mundo, los USGAAP son los principios de contabilidad generalmente aceptados en Estados Unidos, mientras que los COLGAAP son los principios de contabilidad generalmente aceptados en Colombia.',
+    },
+    {
+      termino: 'International Accounting Standard - IAS',
+      significado:
+        'Norma Internacional de Contabilidad, fueron todas las normas de Contabilidad emitidas por el Comité de Normas Internacionales de Contabilidad.',
+    },
+    {
+      termino: 'International Accounting Standards Board - IASB',
+      significado:
+        'en español traduce Junta de Normas Internacionales de Contabilidad, fue creada en el año 2001 para ejercer las funciones que desde 1973 y hasta el año 2001 ejerció el IASC. ',
+    },
+    {
+      termino: 'International Accounting Standards Committee - ',
+      significado:
+        'en español es el Comité de Normas Internacionales de Contabilidad, creado en Londres en 1973 con el fin de estudiar y proponer Normas internacionales de Información financiera internacionales y con el apoyo de 9 países (Australia, Canadá, Francia, Alemania, Japón, México, Países Bajos, Reino Unido y Estados Unidos) aunque Estados Unidos fue el único miembro de los países fundadores que decidió no utilizar las normas Emitidas por el IASC en un principio.',
+    },
+    {
+      termino: 'International Accounting Education Standard Board - IAESB',
+      significado:
+        'su sigla en español es IES. Calidad de la educación contable, para poder hacer paralelos en la implementación de las normas contables. ',
+    },
+    {
+      termino: 'International Financial Reporting Standards- IFRS',
+      significado:
+        'en español ha sido traducido como Normas Internacionales de Información Financiera (NIIF) y son las normas que ha emitido desde el 2001 la junta de normas internacionales de Contabilidad.',
+    },
+    {
+      termino: 'NIC',
+      significado:
+        'Norma Internacional de Contabilidad, es la equivalencia de la sigla en inglés IAS (Institute Accounting Standard).',
+    },
+    {
+      termino: 'NIIF',
+      significado:
+        'Norma Internacional de Información Financiera, es la equivalencia de la sigla en inglés IFRS (International Financial Reporting Estandar).',
+    },
+    {
+      termino: 'Pasivo corriente',
+      significado:
+        'una entidad clasificará un pasivo como corriente cuando: espera liquidar el pasivo en su ciclo normal de operación; mantiene el pasivo principalmente con fines de negociación.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Congreso de la República de Colombia. (13 de julio de 2009). Ley 1314 de 2009. ',
+      link:
+        'http://www.secretariasenado.gov.co/senado/basedoc/ley_1314_2009.html',
+    },
+    {
+      referencia:
+        'Consejo Técnico de la Contaduría Pública – CTCP. (2006). Norma Internacional de Contabilidad 7: Estados de flujos de efectivo. ',
+      link:
+        ' https://www.ctcp.gov.co/proyectos/contabilidad-e-informacion-financiera/documentos-organismos-internacionales/compilacion-marcos-tecnicos-de-informacion-financi/1534368973-9784',
+    },
+    {
+      referencia:
+        'Consejo Técnico de la Contaduría Pública – CTCP. (2018). Norma Internacional de Contabilidad 1: Presentación de Estados Financieros. ',
+      link:
+        'https://www.ctcp.gov.co/proyectos/contabilidad-e-informacion-financiera/documentos-organismos-internacionales/compilacion-marcos-tecnicos-de-informacion-financi/1534364977-6992',
+    },
+    {
+      referencia:
+        'Estupiñán, R. (2013). NIC / NIIF transición y adopción en la empresa. Ediciones de la U. ',
       link: '',
+    },
+    {
+      referencia:
+        'Estupiñán, R., y Sierra, A. (2017). Estados financieros básicos: bajo NIC /NIIF. Ecoe Ediciones. ',
+      link: '',
+    },
+    {
+      referencia:
+        'Godoy, E. (2013). Contabilidad y presentación de estados financieros. Grupo Editorial Nueva Legislación.',
+      link: '',
+    },
+    {
+      referencia:
+        'Godoy, E. (2014) Normas Internacionales de información financiera NIIF. Grupo Editorial Nueva Legislación.',
+      link: '',
+    },
+    {
+      referencia:
+        'IFRS Foundation. (2009). Módulo 5: estado del resultado integral y estado de resultados. IFRS Publications. ',
+      link: '',
+    },
+    {
+      referencia: 'NIC NIIF (2009). NIIF para las pymes. ',
+      link: 'https://www.nicniif.org/home/normas/niif-para-las-pymes.html',
+    },
+    {
+      referencia:
+        'Presidencia de la República de Colombia. (23 de diciembre de 2015). Decreto 2420 de 2015 Único Reglamentario de las Normas de Contabilidad, de Información Financiera y de Aseguramiento de la Información',
+      link:
+        'http://www.suin-juriscol.gov.co/viewDocument.asp?ruta=Decretos/30019674',
+    },
+    {
+      referencia:
+        'Presidencia de la República de Colombia. (23 de diciembre de 2015). Decreto 2496 de 2015, por medio del cual se modifica el Decreto 2420 de 2015 Único Reglamentario de las Normas de Contabilidad, de Información Financiera y de Aseguramiento de la Información. ',
+      link:
+        'http://www.suin-juriscol.gov.co/viewDocument.asp?ruta=Decretos/30019674',
+    },
+    {
+      referencia:
+        'Presidencia de la República de Colombia. (27 de marzo de 1971). Decreto-Ley 410 de 1971, por el cual se expide el Código del Comercio. http://www.secretariasenado.gov.co/senado/basedoc/codigo_comercio.html',
+      link: '',
+    },
+    {
+      referencia:
+        'Presidencia de la República de Colombia. (29 de diciembre de 1993). Decreto 2649 de 1993: Reglamento General de Contabilidad. ',
+      link: 'https://niif.com.co/decreto-2649-1993/',
+    },
+    {
+      referencia:
+        'Pymes y autónomos (26 de septiembre de 2013). ¿Cuál es la diferencia entre liquidez y solvencia? ',
+      link:
+        'https://www.pymesyautonomos.com/administracion-finanzas/cual-es-la-diferencia-entre-liquidez-y-solvencia',
     },
   ],
   creditos: [

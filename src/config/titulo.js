@@ -1,1 +1,1 @@
-module.exports = 'Estados financieros de propósito general'
+module.exports = 'Ecored Base PKG'
